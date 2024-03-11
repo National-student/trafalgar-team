@@ -45,7 +45,7 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .container {
@@ -55,6 +55,32 @@ img {
 }
 
 h1 {
-font-family: 'Mulish';
-font-weight: 700;
+  font-family: "Mulish";
+  font-weight: 700;
+}
+
+.our__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our__content {
+  width: 450px;
+}
+
+.our__content--line{
+  display: inline-block;
+  width: 56px;
+  margin-top: 26px;
+  margin-bottom: 31px;
+
+}
+
+.our__content--link {
+  display: inline-block;
+  margin-top: 30px;
+  border: 2px solid blue;
+  padding: 7px 15px;
+  border-radius: 20px;
 }
